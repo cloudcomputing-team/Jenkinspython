@@ -13,12 +13,12 @@ pipeline {
             }
         }
     
-        stage('hello'){
+        stage('hellow'){
             steps{
                 sh 'python3 hellowipro.py'
             }
         }
-        stage('hello'){
+        stage('helloj'){
             steps{
                 sh 'python3 hellojenkins.py'
             }
