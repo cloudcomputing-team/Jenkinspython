@@ -4,8 +4,18 @@ pipeline {
     stages {
          stage('hello'){
             steps{
-                sh 'script.sh'
+                sh 'hello.py'
             }
         }
+          stage('hello'){
+            steps{
+                sh 'hellojenkins.py'
+            }
+        }
+       stage('hello'){
+            steps{
+                sh 'hellowipro.py'
+            }
+        } 
     }
-}
+  }
