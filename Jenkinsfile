@@ -7,12 +7,12 @@ pipeline {
                 sh 'hello.py'
             }
         }
-          stage('hello'){
+          stage('hellojenkins'){
             steps{
                 sh 'hellojenkins.py'
             }
         }
-       stage('hello'){
+       stage('hellowipro'){
             steps{
                 sh 'hellowipro.py'
             }
