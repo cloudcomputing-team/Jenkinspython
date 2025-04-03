@@ -4,18 +4,18 @@ pipeline {
     stages {
          stage('hello'){
             steps{
-                sh 'hello.py'
+                sh 'python3 hello.py'
             }
         }
           stage('hellojenkins'){
             steps{
-                sh 'hellojenkins.py'
+                sh 'python3 hellojenkins.py'
             }
           }
           
            stage('hellowipro'){
             steps{
-                sh 'hellowipro.py'
+                sh 'python3 hellowipro.py'
             }
            }
            
