@@ -11,11 +11,13 @@ pipeline {
             steps{
                 sh 'hellojenkins.py'
             }
-        }
-       stage('hellowipro'){
+          }
+          
+           stage('hellowipro'){
             steps{
                 sh 'hellowipro.py'
             }
-        } 
+           }
+           
     }
-  }
+}
